@@ -1,0 +1,646 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    font-family: Montserrat, sans-serif;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+#navbar {
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.72);
+    backdrop-filter: blur(5px);
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-general {
+    margin-left: -50px;
+}
+
+.navbar-gen {
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-gen a {
+    font-style: normal;
+    font-weight: 200;
+    font-size: 15px;
+    color: #FFFFFF;
+    transition: .4s;
+    padding: 0 15px;
+}
+
+.navbar-gen a:hover {
+    color: red;
+    border-bottom: 1px solid red;
+}
+
+.navbar-gen button {
+    width: 193px;
+    height: 48px;
+    background: transparent;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: white;
+    transition: .4s;
+}
+
+.navbar-gen button:hover {
+    background: red;
+    transform: scale(1.1);
+}
+
+
+#hero {
+    background: url("../img/page2.svg") no-repeat center/cover fixed;
+    min-height: 50vh;
+    padding-top: 150px;
+}
+
+.hero-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    color: white;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.35);
+    filter: drop-shadow(0 10px 10px black);
+    padding-bottom: 10px;
+}
+
+
+.hero-btn {
+    width: 322px;
+    height: 50px;
+    border: 1px solid #fff;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    transition: .4s;
+    margin-bottom: 30px;
+    background: #FF001E;
+    border-radius: 10px;
+}
+
+.hero-btn:hover {
+    background: red;
+    border: 1px solid red;
+    transform: scale(1.1);
+}
+
+.hero-item {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.hero-me {
+    width: 200px;
+    height: 50px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+    border: 1px solid #fff;
+    background: #FF001E;
+    border-radius: 10px;
+    transition: .4s;
+    margin-left: 30px;
+}
+
+.hero-me:hover {
+    background: red;
+    border: 1px solid red;
+    transform: scale(1.1);
+}
+
+.hero-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.hero-icons div {
+    font-size: 40px;
+    color: red;
+    padding: 0 15px;
+    transition: .4s;
+    margin-top: 400px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-icons div:hover {
+    transform: scale(1.1);
+}
+
+.block-general-block {
+    width: 250px;
+    height: 140px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+#block {
+    background: #222222;
+    padding: 40px 0;
+}
+
+.block-general-sty h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    color: #FF001E;
+    margin-left: 75px;
+}
+
+.block-general-sty h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+    margin-left: 25px;
+}
+
+.block-general {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.block-general-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top img {
+    margin-left: 60px;
+    padding-top: 60px;
+}
+
+.or h5 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #FFFFFF;
+    margin-left: 185px;
+    padding-top: 100px;
+}
+
+.or h6 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-left: 185px;
+    padding-top: -100px;
+    padding-bottom: 10px;
+}
+
+.or h4 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-left: 185px;
+    padding-bottom: 10px;
+
+}
+
+.or h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-left: 185px;
+}
+
+.or2 {
+    padding-top: 20px;
+    margin-left: 180px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#its {
+    background: #222222;
+}
+
+.its-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.its-title2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    padding-bottom: 30px;
+
+}
+
+.its-block {
+    width: 300px;
+    height: 500px;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+.its-gen-block h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #000000;
+    padding-top: 35px;
+    padding-left: 65px;
+    padding-bottom: 43px;
+
+}
+
+.its-gen-block img {
+    margin-left: 37px;
+    padding-bottom: 30px;
+}
+
+.its-gen-block p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+    margin-left: 33px;
+    padding-bottom: 91px;
+
+}
+
+.its-gen-block h4 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+    margin-left: 110px;
+    padding-bottom: 10px;
+
+}
+
+.its-gen-block h5 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FF001E;
+    margin-left: 85px;
+    padding-bottom: 40px;
+
+}
+
+.its-gen-block button {
+    width: 250px;
+    height: 40px;
+    background: #222222;
+    border-radius: 10px;
+    margin-left: 25px;
+}
+
+.its-btn {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.its {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.its22 h3 {
+    margin-left: -38px;
+}
+
+.its22 img {
+    margin-left: 100px;
+}
+
+.its22 p {
+    margin-top: -20px;
+}
+
+.its33 button {
+    border: none;
+    background: red;
+}
+
+.its33 {
+    margin-top: -10px;
+}
+
+.its44 img {
+    margin-top: -50px;
+}
+
+.its44 p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #000000;
+    margin-top: -70px;
+}
+
+#all {
+    background: #222222;
+}
+
+.all-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+
+.all-block {
+    width: 330px;
+    height: 161px;
+    left: 181px;
+    top: 2055px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.all-block-er h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    margin-left: 40px;
+    padding-top: 50px;
+    line-height: 24px;
+}
+
+.all {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.qw2 h1 {
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 15px;
+    padding-top: 40px;
+}
+
+.qw3 h1 {
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 15px;
+    padding-top: 40px;
+}
+
+.all-too {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-me-two {
+    width: 200px;
+    height: 40px;
+    background: #FF001E;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+    margin-left: 30px;
+}
+
+.hero-btn-two {
+    width: 250px;
+    height: 40px;
+    background: #FF001E;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+}
+
+#rich {
+    background: #222222;
+    padding: 30px 0;
+}
+.rich{
+    padding-top: 134px;
+}
+
+.rich-general {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rich-block {
+    width: 642px;
+    height: 400px;
+    background: #9D0013;
+    border-radius: 20px;
+}
+
+.rich-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    margin-top: -230px;
+    margin-left: -60px;
+}
+
+.rich-po {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 20px;
+    margin-left: -60px;
+}
+
+.rich-block-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px 0 20px;
+}
+
+.rich-block-input input {
+    width: 280px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    color: black;
+    font-size: 15px;
+}
+
+.rich-block-3 input{
+    width: 582px;
+    height: 100px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin-left: 26px;
+    margin-top: 20px;
+}
+.bor-block{
+    width: 582px;
+    height: 40px;
+    background: #222222;
+    border-radius: 10px;
+    margin-left: 26px;
+    margin-top: 20px;
+}
+.upper p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-left: 28px;
+}
+
+
+.footer-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    color: #000000;
+    margin-left: -20px;
+    margin-top: 30px;
+}
+.footer-button{
+    width: 294px;
+    height: 59px;
+    background: #FF001E;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 22px;
+    color: #F5F7F9;
+    margin-top: 30px;
+    margin-left: -20px;
+}
+
+
+.footer-general{
+    display: flex;
+}
+.footer-gen{
+    margin-left: 600px;
+    line-height: 30px;
+    margin-top: -130px;
+}
+.footer-gen h3{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+
+    color: #000000;
+}
+.footer-gen h4{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000000;
+}
+.footer-gen h5{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000000;
+}
+.footer-gen h6{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000000;
+}
+.footer-let{
+    margin-left: 110px;
+    line-height: 30px;
+    margin-top: -130px;
+}
+.footer-let h3{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000000;
+}
+.footer-let h4{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000000;
+}
+.footer-let h5{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000000;
+}
+.footer-let h6{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000000;
+}
+.footer-let h2{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000000;
+}
+
+

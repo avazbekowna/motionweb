@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    font-family: Montserrat, sans-serif;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+#navbar {
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.72);
+    backdrop-filter: blur(5px);
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-general {
+    margin-left: -50px;
+}
+
+.navbar-gen {
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-gen a {
+    font-style: normal;
+    font-weight: 200;
+    font-size: 15px;
+    color: #FFFFFF;
+    transition: .4s;
+    padding: 0 15px;
+}
+
+.navbar-gen a:hover {
+    color: red;
+    border-bottom: 1px solid red;
+}
+
+.navbar-gen button {
+    width: 193px;
+    height: 48px;
+    background: transparent;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: white;
+    transition: .4s;
+
+}
+
+.navbar-gen button:hover {
+    background: red;
+    transform: scale(1.1);
+}
+
+#hero {
+    background: url("../img/frame5.svg") no-repeat center/cover fixed;
+    min-height: 80vh;
+    padding-top: 150px;
+}
+
+.hero-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 120px;
+    color: #FFFFFF;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.35);
+    filter: drop-shadow(0 10px 10px black);
+    padding-bottom: 10px;
+}
+
+.hero-desc {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding-bottom: 40px;
+}
+
+.hero-btn {
+    width: 322px;
+    height: 50px;
+    border: 1px solid #fff;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    background: transparent;
+    transition: .4s;
+    margin-bottom: 30px;
+}
+
+.hero-btn:hover {
+    background: red;
+    border: 1px solid red;
+    transform: scale(1.1);
+}
+
+.hero-item {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.hero-icons {
+    display: flex;
+
+}
+
+.hero-icons div {
+    font-size: 40px;
+    color: red;
+    padding: 0 15px;
+    transition: .4s;
+    margin-top: 400px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-icons div:hover {
+    transform: scale(1.1);
+}
